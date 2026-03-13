@@ -8,6 +8,7 @@ import { generatePedagogicalSteps } from "./pedagogy";
  * Como correr: npx tsx src/core/examples.ts
  */
 
+
 const separator = () => console.log("-".repeat(50));
 
 const runScenario = (name: string, input: any) => {

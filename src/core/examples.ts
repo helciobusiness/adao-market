@@ -63,10 +63,6 @@ runScenario("Teste Percentagem (50%)", {
     nomOld: 2,
     nomNew: 3,
     capitalBefore: 600,
-    emissionPriceRaw: 0.5, // 50% = 0.5 decimal? Ou input raw seria 50?
-    // Resolver espera raw. Se isPercentage=true, divide por 100?
-    // Verifiquemos academicResolver: "const peMultiplier = input.isPercentage ? (input.emissionPriceRaw / 100) : input.emissionPriceRaw;"
-    // Então se eu quero 50%, passo 50.
     emissionPriceRaw: 50,
     isPercentage: true
 });

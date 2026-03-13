@@ -40,7 +40,7 @@ export const Visuals = ({ data }: Props) => {
                             <Tooltip formatter={(val: any) => `Kz ${Number(val).toFixed(2)}`} />
                             <Legend />
                             <Bar dataKey="value" name="Valor (Kz)" radius={[4, 4, 0, 0]}>
-                                {quotationData.map((entry, index) => (
+                                {quotationData.map((_, index) => (
                                     <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
                                 ))}
                             </Bar>
